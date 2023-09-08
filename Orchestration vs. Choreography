@@ -14,4 +14,10 @@ Choreography employs a decentralized approach for service composition.
 Final Remarks: The choreography describes the interactions between multiple services, where as orchestration represents control from one party's perspective. 
 This means that a choreography differs from an orchestration with respect to where the logic that controls the interactions between the services involved should reside.
 
+- we do not need to distinguish much between these two, as we need to focus on the business logic. 
+Where a single point of logic does the job, we do orchestration. Where a problem cannot be covered by a centralized logic,
+we are forced to choreography anyway. That is why we often come accross orchestration in IT, 
+whereas choreograhy remains more an academical concept and a subject for research. 
+And very often we do choreography without actualy knowing it, as in the real world.
+
 Ref: https://stackoverflow.com/questions/4127241/orchestration-vs-choreography
